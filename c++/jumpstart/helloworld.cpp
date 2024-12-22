@@ -9,7 +9,9 @@ int main(int argc, char** argv) {
     //   - `argv`: vetor de strings que contém os argumentos (não usado neste código).
 
     std::cout << "olá, mundo!\n";  
-    // Usa `std::cout` para imprimir texto no terminal.
+    // std significa "standard" (padrão) e é o namespace onde estão definidas as funções, objetos e classes padrão da linguagem C++
+    // O :: é o operador de resolução de escopo. Usadopara acessar algo que está definido dentro de um namespace ou classe. Ele está dizendo: "Use o cout que está dentro do namespace std."
+    // cout (character output) é usado para exibir informações na tela. Funçãoaz da biblioteca iostream.
     // O `<<` é o operador de inserção que direciona o texto para a saída padrão (normalmente o terminal).
     // O `\n` cria uma nova linha, equivalente a pressionar "Enter".
 
