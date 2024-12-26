@@ -15,6 +15,7 @@ namespace minha_biblioteca {
 
 // Definição de uma função com o mesmo nome, fora de um namespace
 void imprimir() {
+    //std é objeto instanciado. cout é o método que está sendo chamado.
     std::cout << "Olá do escopo global!\n";
 }
 

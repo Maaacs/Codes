@@ -8,6 +8,7 @@ int main(int argc, char** argv) {
     //   - `argc`: número de argumentos.
     //   - `argv`: vetor de strings que contém os argumentos (não usado neste código).
 
+    //std é objeto instanciado. cout é o método que está sendo chamado.
     std::cout << "olá, mundo!\n";  
     // std significa "standard" (padrão) e é o namespace onde estão definidas as funções, objetos e classes padrão da linguagem C++
     // O :: é o operador de resolução de escopo. Usadopara acessar algo que está definido dentro de um namespace ou classe. Ele está dizendo: "Use o cout que está dentro do namespace std."
