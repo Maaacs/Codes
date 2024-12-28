@@ -4,13 +4,15 @@ int main (){
 
     int numero;
 
-    std::cout << "Digite um numero\n";
+    std::cout << "Digite um numero" << std::endl;
 
     std::cin >> numero;
 
     numero++;
 
-    std::cout << numero << "\n";
+    std::cout << numero << std::endl;
+
+    return 0;
 
 }
 
