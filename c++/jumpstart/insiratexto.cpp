@@ -26,11 +26,22 @@ void textocomputs(){
     puts(str); 
 }
 
+void texcomfgets(){
+    char str[100];
+
+    std::cout << "\nInsira o terceiro texto (Max 50 caracteres)" << std::endl;
+
+    fgets(str,100,stdin); // lê uma cadeia de caracteres completa (incluindo espaços) a partir de um arquivo stream e armazena-a em um vetor.
+
+    std::cout << "O texto digitado eh: " << str << std::endl;
+}
+
 
 int main (){
 
     textocomvetor();
     textocomputs();
+    texcomfgets();
    
     return 0;
 }
